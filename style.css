@@ -1,3 +1,4 @@
+
  /* ===========================================*/ 
  /* Mengatur CSS Grid*/ 
  /* ===========================================*/ 
@@ -96,51 +97,55 @@
 } 
   
 .navigation a:hover { 
-text-decoration: none; color: #000000; 
+  text-decoration: none; 
+  color: #000000; 
 } 
-
 .navigation ul { 
-display: block; 
-list-style-type: disc; 
-width: 100%; 
-margin: 0px; 
+  display: block; 
+  list-style-type: disc; 
+  width: 100%; 
+  margin: 0px; 
 } 
   
 .navigation li { 
-display: block; 
-list-style-type: disc; 
-padding: 10px 0 10px 0; 
-width: 100%; 
+  display: block; 
+  list-style-type: disc; 
+  padding: 10px 0 10px 0; 
+  width: 100%; 
 } 
   
 .navigation .active { 
-color: #fff; 
-background-color: #25476a; 
-border-radius: 3px; 
-padding: 10px 50px 10px 10px; 
-width: 100; 
-border-bottom: 1px solid #cccccc; 
+  color: #fff; 
+  background-color: #25476a; 
+  border-radius: 3px; 
+  padding: 10px 50px 10px 10px; 
+  width: 100; 
+  border-bottom: 1px solid #cccccc; 
 } 
  
 /*Pengaturan untuk judul konten*/ 
 .judul { 
-font-weight: 600; 
-border-bottom: 1px solid #cccccc; 
+  font-weight: 600; 
+  border-bottom: 1px solid #cccccc; 
 }
 
-/*tabel*/
-.table{
-  text-align: center;
-  width: 80%;
-  margin-top: 20px;
-  border-collapse: collapse;
+/*Form */
+.formgroup {
+  clear: both
 }
 
-.table th, .table td {
-  border: 1px solid #ccc;
-  padding: 10px;
+/* mengatur posisi label */
+.formgroup label {
+  display: block;
+  padding: 15px 0;
+  float: left;
+  width: 30%;
+  font-weight: bold;
 }
   
-.table th{
-  background: #eee;
+/* mengatur posisi input*/
+.formgroup input {
+display: block;
+width: 50%;
+float: left;
 }
